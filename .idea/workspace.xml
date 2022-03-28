@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="899b890e-6b65-4712-aa4d-1aa1a90ecb06" name="Changes" comment="Atualizando o README.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="899b890e-6b65-4712-aa4d-1aa1a90ecb06" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> f530a5f5db03973c53b490063edf58da5caa0467
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +34,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+=======
+>>>>>>> f530a5f5db03973c53b490063edf58da5caa0467
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648489127362</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="Atualizando o README.">
       <created>1648495648507</created>
       <option name="number" value="00001" />
@@ -66,4 +75,8 @@
     <MESSAGE value="Atualizando o README." />
     <option name="LAST_COMMIT_MESSAGE" value="Atualizando o README." />
   </component>
+=======
+    <servers />
+  </component>
+>>>>>>> f530a5f5db03973c53b490063edf58da5caa0467
 </project>
