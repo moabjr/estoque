@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
 from projeto.core.models import TimeStempedModel
-from projeto.produto. models import Produto
+from projeto.produto.models import Produto
 
 MOVIMENTO = (
     ('e', 'entrada'),
@@ -9,7 +9,7 @@ MOVIMENTO = (
 )
 
 class Estoque(TimeStempedModel):
-    funcionario = models.ForeingKey(User, on_delete=models.CASCADE)
+    funcionario = models.ForeignKey(User, on_delete=models.CASCADE)
     nf = models.PositiveIntegerField('nota fiscal', null=True, blank=True)
     movimento = models.CharField(max_length=1, choices=MOVIMENTO)
 
@@ -20,8 +20,8 @@ class Estoque(TimeStempedModel):
         return str(self.pk )
 
 class EstoqueItens(models.Model):
-    estoque = models.ForeingKey(Estoque, on_delete=models.CASCADE)
-    produto = models.ForeingKey(Produto, on_delete=models.CASCADE)
+    estoque = models.ForeignKey(Estoque, on_delete=models.CASCADE)
+    produto= models.ForeignKey(Produto, on_delete=models.CASCADE)
     quantidade = models.PositiveIntegerField()
     saldo = models.PositiveIntegerField()
 
