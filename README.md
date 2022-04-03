@@ -35,7 +35,7 @@ python manage.py runserver
 
 [github.com/rg3915/tutoriais django-basic](https://github.com/rg3915/tutoriais/tree/master/django-basic)
 
-[bootstrap starter-template](https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template)
+[bootstrap starter-template](https://getbootstrap.com/docs/5.1/getting-started/introduction/#starter-template)
 
 [emmet](https://emmet.io/)
 
