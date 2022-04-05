@@ -12,8 +12,8 @@ class EstoqueAdmin(admin.ModelAdmin):
     inlines = (EstoqueItensInline,)
     list_display=(
         '__str__',
-        'funcionario',
         'nf',
+        'funcionario',
         'movimento',
     )
     search_fields=('nf',)
